@@ -160,7 +160,7 @@ Function AfficherImages()
 
     global $ConnDB;
     //$SQL ="select us.NomUsager, im.Titre, im.DatePublication, im.URL from image im inner join usager us on im.IDUsager = us.IDUsager order by  im.DatePublication desc";
-    $SQL ="select us.NomUsager, im.Titre, im.DatePublication, im.URL from image im inner join usager us on im.IDUsager = us.IDUsager order by  im.DatePublication desc";
+    $SQL ="select im.IDImage, im.NomUsager, im.Titre, im.DatePublication, im.URL, count(cm.IDCommentaire) as CompteCom from commentaires cm right join ( select im.IDImage, us.NomUsager, im.Titre, im.DatePublication, im.URL from image im inner join usager us on im.IDUsager = us.IDUsager ) im on cm.IDImage=im.IDImage group by im.IDImage, im.NomUsager, im.Titre, im.DatePublication, im.URL order by im.DatePublication desc";
     $PrStm = $ConnDB->prepare($SQL);
     $PrStm->execute();
     $result = $PrStm->fetchAll();
@@ -175,6 +175,7 @@ Function AfficherImages()
                 <h3><?php echo $item['Titre']; ?></h3>
                 <h4><?php echo $item['NomUsager']; ?></h4>
                 <h5><?php echo $item['DatePublication']; ?></h5>
+                <h4>Commentaires(<?php echo $item['CompteCom']; ?>)</h4>
                 <p><a href="gestimage.php?Image=<?php echo $item['URL']; ?>" class="btn btn-primary" role="button">Afficher</a>
             </div>
         </div>
