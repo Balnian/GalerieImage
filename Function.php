@@ -11,7 +11,10 @@ $pass = 'Qwerty1234';
 
 $ConnDB = new PDO('mysql:host=localhost;dbname=galerie', $user, $pass);
 
+//**********************************************************************************************************************
 //  SQL
+//**********************************************************************************************************************
+
 function IsExistingUser($Nom,$PassW)
 {
     global $ConnDB;
@@ -105,7 +108,7 @@ function IsImageOwner($id,$URL)
 function getImageDetails($URL)
 {
     global $ConnDB;
-    $SQL ="select us.NomUsager, im.Titre, im.DatePublication, im.URL from image im inner join usager us on im.IDUsager = us.IDUsager where im.URL = :URL";
+    $SQL ="select im.IDImage, us.NomUsager, im.Titre, im.DatePublication, im.URL from image im inner join usager us on im.IDUsager = us.IDUsager where im.URL = :URL";
     $PrStm = $ConnDB->prepare($SQL);
 
     $PrStm->bindParam(':URL',$URL,PDO::PARAM_STR);
@@ -132,7 +135,25 @@ function getImageComments($ImageID)
     return $result;
 }
 
+function InsertComment($IDU,$IDImg,$Com)
+{
+    global $ConnDB;
+    $SQL ="INSERT INTO commentaires(IDUsager, IDImage, Commentaire, DatePublication) VALUES (:IDU,:IDImg,:Com,:Date)";
+    $PrStm = $ConnDB->prepare($SQL);
+
+    $PrStm->bindParam(':IDU',$IDU,PDO::PARAM_INT);
+    $PrStm->bindParam(':IDImg',$IDImg,PDO::PARAM_INT);
+    $PrStm->bindParam(':Com',$Com,PDO::PARAM_STR);
+    $date = date("Y-m-d h:i:s");
+    $PrStm->bindParam(':Date',$date,PDO::PARAM_STR);
+
+    $PrStm->execute();
+    $PrStm->closeCursor();
+}
+
+//**********************************************************************************************************************
 //Gestion Image
+//**********************************************************************************************************************
 
 Function AfficherImages()
 {
@@ -146,8 +167,9 @@ Function AfficherImages()
     foreach($result as $item )
     {
         ?>
+
         <div class="thumbnail">
-            <img src="<?php echo "Images/".$item['URL'].".png"; ?>" alt="...">
+            <img class="MassImage" src="<?php echo "Images/".$item['URL'].".png"; ?>" alt="<?php echo $item['Titre']; ?>">
             <div class="caption">
                 <h3><?php echo $item['Titre']; ?></h3>
                 <h4><?php echo $item['NomUsager']; ?></h4>
