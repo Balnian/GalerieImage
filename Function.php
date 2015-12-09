@@ -159,6 +159,7 @@ Function AfficherImages()
 {
 
     global $ConnDB;
+    //$SQL ="select us.NomUsager, im.Titre, im.DatePublication, im.URL from image im inner join usager us on im.IDUsager = us.IDUsager order by  im.DatePublication desc";
     $SQL ="select us.NomUsager, im.Titre, im.DatePublication, im.URL from image im inner join usager us on im.IDUsager = us.IDUsager order by  im.DatePublication desc";
     $PrStm = $ConnDB->prepare($SQL);
     $PrStm->execute();

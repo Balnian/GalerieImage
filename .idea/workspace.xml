@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="039cd239-4947-448f-9f4c-988516345c36" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Function.php" afterPath="$PROJECT_DIR$/Function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/Image.css" afterPath="$PROJECT_DIR$/css/Image.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gestimage.php" afterPath="$PROJECT_DIR$/gestimage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Galerie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,17 +32,17 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="765">
+              <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gestimage.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gestimage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gestimage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48657718" vertical-offset="993" max-vertical-offset="2040">
+            <state vertical-scroll-proportion="-12.807693" vertical-offset="1095" max-vertical-offset="2040">
               <caret line="84" column="83" selection-start-line="84" selection-start-column="83" selection-end-line="84" selection-end-column="83" />
               <folding>
                 <element signature="e#2437#2467#0#HTML" expanded="true" />
@@ -83,23 +83,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Function.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Function.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.26923" vertical-offset="1620" max-vertical-offset="3604">
-              <caret line="137" column="22" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.38251987" vertical-offset="2417" max-vertical-offset="3621">
+              <caret line="162" column="166" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="166" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1449623463934" expanded="true" signature="529:574" placeholder="select IDUsa..Usager..." />
-                <marker date="1449623463934" expanded="true" signature="529:580" placeholder="select IDUsa..Usager..." />
-                <marker date="1449623463934" expanded="true" signature="529:607" placeholder="select IDUsa..Usager..." />
-                <marker date="1449623463934" expanded="true" signature="1139:1249" placeholder="INSERT INTO ..." />
-                <marker date="1449623463934" expanded="true" signature="1747:1789" placeholder="select IDIma..image..." />
-                <marker date="1449623463934" expanded="true" signature="2127:2189" placeholder="select IDIma..image..." />
-                <marker date="1449623463934" expanded="true" signature="2673:2826" placeholder="select im.ID..image..." />
-                <marker date="1449623463934" expanded="true" signature="3113:3306" placeholder="select us.No..commentaires..." />
-                <marker date="1449623463934" expanded="true" signature="3561:3666" placeholder="INSERT INTO ..." />
-                <marker date="1449623463934" expanded="true" signature="4323:4478" placeholder="select us.No..image..." />
+                <marker date="1449624906012" expanded="true" signature="529:574" placeholder="select IDUsa..Usager..." />
+                <marker date="1449624906012" expanded="true" signature="529:580" placeholder="select IDUsa..Usager..." />
+                <marker date="1449624906012" expanded="true" signature="529:607" placeholder="select IDUsa..Usager..." />
+                <marker date="1449624906012" expanded="true" signature="1139:1249" placeholder="INSERT INTO ..." />
+                <marker date="1449624906012" expanded="true" signature="1747:1789" placeholder="select IDIma..image..." />
+                <marker date="1449624906012" expanded="true" signature="2127:2189" placeholder="select IDIma..image..." />
+                <marker date="1449624906012" expanded="true" signature="2673:2826" placeholder="select im.ID..image..." />
+                <marker date="1449624906012" expanded="true" signature="3113:3306" placeholder="select us.No..commentaires..." />
+                <marker date="1449624906012" expanded="true" signature="3561:3666" placeholder="INSERT INTO ..." />
+                <marker date="1449624906012" expanded="true" signature="4325:4480" placeholder="select us.No..image..." />
+                <marker date="1449624906012" expanded="true" signature="4494:4649" placeholder="select us.No..image..." />
               </folding>
             </state>
           </provider>
@@ -138,11 +139,11 @@
         <option value="$PROJECT_DIR$/Layouts/Menu.php" />
         <option value="$PROJECT_DIR$/User.php" />
         <option value="$PROJECT_DIR$/Login.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Layouts/Head.php" />
         <option value="$PROJECT_DIR$/css/Image.css" />
-        <option value="$PROJECT_DIR$/Function.php" />
         <option value="$PROJECT_DIR$/gestimage.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Function.php" />
       </list>
     </option>
   </component>
@@ -352,16 +353,17 @@
           <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1449623463934" expanded="true" signature="529:574" placeholder="select IDUsa..Usager..." />
-            <marker date="1449623463934" expanded="true" signature="529:580" placeholder="select IDUsa..Usager..." />
-            <marker date="1449623463934" expanded="true" signature="529:607" placeholder="select IDUsa..Usager..." />
-            <marker date="1449623463934" expanded="true" signature="1139:1249" placeholder="INSERT INTO ..." />
-            <marker date="1449623463934" expanded="true" signature="1747:1789" placeholder="select IDIma..image..." />
-            <marker date="1449623463934" expanded="true" signature="2127:2189" placeholder="select IDIma..image..." />
-            <marker date="1449623463934" expanded="true" signature="2673:2826" placeholder="select im.ID..image..." />
-            <marker date="1449623463934" expanded="true" signature="3113:3306" placeholder="select us.No..commentaires..." />
-            <marker date="1449623463934" expanded="true" signature="3561:3666" placeholder="INSERT INTO ..." />
-            <marker date="1449623463934" expanded="true" signature="4323:4478" placeholder="select us.No..image..." />
+            <marker date="1449624906012" expanded="true" signature="529:574" placeholder="select IDUsa..Usager..." />
+            <marker date="1449624906012" expanded="true" signature="529:580" placeholder="select IDUsa..Usager..." />
+            <marker date="1449624906012" expanded="true" signature="529:607" placeholder="select IDUsa..Usager..." />
+            <marker date="1449624906012" expanded="true" signature="1139:1249" placeholder="INSERT INTO ..." />
+            <marker date="1449624906012" expanded="true" signature="1747:1789" placeholder="select IDIma..image..." />
+            <marker date="1449624906012" expanded="true" signature="2127:2189" placeholder="select IDIma..image..." />
+            <marker date="1449624906012" expanded="true" signature="2673:2826" placeholder="select im.ID..image..." />
+            <marker date="1449624906012" expanded="true" signature="3113:3306" placeholder="select us.No..commentaires..." />
+            <marker date="1449624906012" expanded="true" signature="3561:3666" placeholder="INSERT INTO ..." />
+            <marker date="1449624906012" expanded="true" signature="4325:4480" placeholder="select us.No..image..." />
+            <marker date="1449624906012" expanded="true" signature="4494:4649" placeholder="select us.No..image..." />
           </folding>
         </state>
       </provider>
@@ -416,16 +418,17 @@
           <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1449623463934" expanded="true" signature="529:574" placeholder="select IDUsa..Usager..." />
-            <marker date="1449623463934" expanded="true" signature="529:580" placeholder="select IDUsa..Usager..." />
-            <marker date="1449623463934" expanded="true" signature="529:607" placeholder="select IDUsa..Usager..." />
-            <marker date="1449623463934" expanded="true" signature="1139:1249" placeholder="INSERT INTO ..." />
-            <marker date="1449623463934" expanded="true" signature="1747:1789" placeholder="select IDIma..image..." />
-            <marker date="1449623463934" expanded="true" signature="2127:2189" placeholder="select IDIma..image..." />
-            <marker date="1449623463934" expanded="true" signature="2673:2826" placeholder="select im.ID..image..." />
-            <marker date="1449623463934" expanded="true" signature="3113:3306" placeholder="select us.No..commentaires..." />
-            <marker date="1449623463934" expanded="true" signature="3561:3666" placeholder="INSERT INTO ..." />
-            <marker date="1449623463934" expanded="true" signature="4323:4478" placeholder="select us.No..image..." />
+            <marker date="1449624906012" expanded="true" signature="529:574" placeholder="select IDUsa..Usager..." />
+            <marker date="1449624906012" expanded="true" signature="529:580" placeholder="select IDUsa..Usager..." />
+            <marker date="1449624906012" expanded="true" signature="529:607" placeholder="select IDUsa..Usager..." />
+            <marker date="1449624906012" expanded="true" signature="1139:1249" placeholder="INSERT INTO ..." />
+            <marker date="1449624906012" expanded="true" signature="1747:1789" placeholder="select IDIma..image..." />
+            <marker date="1449624906012" expanded="true" signature="2127:2189" placeholder="select IDIma..image..." />
+            <marker date="1449624906012" expanded="true" signature="2673:2826" placeholder="select im.ID..image..." />
+            <marker date="1449624906012" expanded="true" signature="3113:3306" placeholder="select us.No..commentaires..." />
+            <marker date="1449624906012" expanded="true" signature="3561:3666" placeholder="INSERT INTO ..." />
+            <marker date="1449624906012" expanded="true" signature="4325:4480" placeholder="select us.No..image..." />
+            <marker date="1449624906012" expanded="true" signature="4494:4649" placeholder="select us.No..image..." />
           </folding>
         </state>
       </provider>
@@ -512,40 +515,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gestimage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.807693" vertical-offset="1095" max-vertical-offset="2040">
+          <caret line="84" column="83" selection-start-line="84" selection-start-column="83" selection-end-line="84" selection-end-column="83" />
+          <folding>
+            <element signature="e#2437#2467#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="765">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.26923" vertical-offset="1620" max-vertical-offset="3604">
-          <caret line="137" column="22" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.38251987" vertical-offset="2417" max-vertical-offset="3621">
+          <caret line="162" column="166" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="166" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1449623463934" expanded="true" signature="529:574" placeholder="select IDUsa..Usager..." />
-            <marker date="1449623463934" expanded="true" signature="529:580" placeholder="select IDUsa..Usager..." />
-            <marker date="1449623463934" expanded="true" signature="529:607" placeholder="select IDUsa..Usager..." />
-            <marker date="1449623463934" expanded="true" signature="1139:1249" placeholder="INSERT INTO ..." />
-            <marker date="1449623463934" expanded="true" signature="1747:1789" placeholder="select IDIma..image..." />
-            <marker date="1449623463934" expanded="true" signature="2127:2189" placeholder="select IDIma..image..." />
-            <marker date="1449623463934" expanded="true" signature="2673:2826" placeholder="select im.ID..image..." />
-            <marker date="1449623463934" expanded="true" signature="3113:3306" placeholder="select us.No..commentaires..." />
-            <marker date="1449623463934" expanded="true" signature="3561:3666" placeholder="INSERT INTO ..." />
-            <marker date="1449623463934" expanded="true" signature="4323:4478" placeholder="select us.No..image..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gestimage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48657718" vertical-offset="993" max-vertical-offset="2040">
-          <caret line="84" column="83" selection-start-line="84" selection-start-column="83" selection-end-line="84" selection-end-column="83" />
-          <folding>
-            <element signature="e#2437#2467#0#HTML" expanded="true" />
+            <marker date="1449624906012" expanded="true" signature="529:574" placeholder="select IDUsa..Usager..." />
+            <marker date="1449624906012" expanded="true" signature="529:580" placeholder="select IDUsa..Usager..." />
+            <marker date="1449624906012" expanded="true" signature="529:607" placeholder="select IDUsa..Usager..." />
+            <marker date="1449624906012" expanded="true" signature="1139:1249" placeholder="INSERT INTO ..." />
+            <marker date="1449624906012" expanded="true" signature="1747:1789" placeholder="select IDIma..image..." />
+            <marker date="1449624906012" expanded="true" signature="2127:2189" placeholder="select IDIma..image..." />
+            <marker date="1449624906012" expanded="true" signature="2673:2826" placeholder="select im.ID..image..." />
+            <marker date="1449624906012" expanded="true" signature="3113:3306" placeholder="select us.No..commentaires..." />
+            <marker date="1449624906012" expanded="true" signature="3561:3666" placeholder="INSERT INTO ..." />
+            <marker date="1449624906012" expanded="true" signature="4325:4480" placeholder="select us.No..image..." />
+            <marker date="1449624906012" expanded="true" signature="4494:4649" placeholder="select us.No..image..." />
           </folding>
         </state>
       </provider>

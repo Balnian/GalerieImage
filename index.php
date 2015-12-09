@@ -9,15 +9,28 @@ UploadImage();
         AfficherImages();
     ?>
 </div>
+
+
 <div class="container">
     <form  method="post"
           enctype="multipart/form-data">
+        <div class="panel panel-primary">
+            <div class="panel-heading"><h2>Téléverser une image</h2></div>
+            <div class="panel-body">
+
         <input type="hidden" name="MAX_FILE_SIZE" value="26214400">
-        Fichier : <input name="Image" size="35" type="file">
+        <div class="form-group">
+            <label for="ImageUpload">Fichier :</label>
+            <input name="Image" class="form-control" id="ImageUpload" size="35" type="file">
+        </div>
+        <div class="form-group">
+            <label for="TitreUpload">Titre:</label>
+            <input type="text" name="Titre" class="form-control" id="TitreUpload" placeholder="Titre">
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer le fichier</button>
+            </div>
+        </div>
 
-        Titre: <input name="Titre" type="text">
-
-        <input type="submit" value="Envoyer le fichier">
     </form>
 </div>
 <?php
