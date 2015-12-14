@@ -7,7 +7,7 @@
  */
 
 include_once "Layouts/Head.php";
-include "Function.php";
+include_once "Function.php";
 
 $Error = false;
 
@@ -15,7 +15,8 @@ if(isset($_POST['Nom']) && isset($_POST['password']))
 {
 
     $out = IsExistingUser($_POST['Nom'],$_POST['password']);
-    if($out==false)
+    echo $out;
+    if($out===false)
     {
         $Error = true;
     }
@@ -31,6 +32,7 @@ if(isset($_POST['Nom']) && isset($_POST['password']))
         $_SESSION['IDUsager']=$out;
         echo $_SESSION['IDUsager'];
         HEADER("Location: index.php");
+        UserLogin($_SESSION['IDUsager']);
     }
 }
 

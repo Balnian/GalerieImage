@@ -1,6 +1,28 @@
 <?php
 session_start();
 
+include_once "Function.php";
+if (isset($_COOKIE["ID"])) {
+    if(is_numeric($_COOKIE["ID"]))
+        if(IDExist($_COOKIE["ID"]))
+            if(/*(!isset($_SESSION['IDUsager']) ||$_SESSION['IDUsager'] == $_COOKIE["ID"] ) &&*/ UserWantsRememberMe($_COOKIE["ID"])) {
+                $_SESSION['IDUsager'] = $_COOKIE["ID"];
+            }
+
+}
+
+if (isset($_SESSION['IDUsager']) )//session_status() == PHP_SESSION_NONE)
+{
+    if(UserWantsRememberMe($_SESSION['IDUsager'])) {
+        $demain = time() + (60 * 60 * 24);
+        setcookie("ID", $_SESSION['IDUsager'], $demain);
+    }
+    else
+    {
+        setcookie("ID", null, -1);
+    }
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +32,7 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Galerie</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

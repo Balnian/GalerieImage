@@ -1,7 +1,11 @@
+<div class="container-fluid">
     <footer>
-		
+        <div class="well">
+		<h3>Réaliser par Francis Lemaire 2015</h3>
+        </div>
 	</footer>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
